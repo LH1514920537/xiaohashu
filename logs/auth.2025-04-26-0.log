@@ -1,0 +1,136 @@
+2025-04-26 20:15:33.376 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - Starting XiaohashuAuthApplication using Java 17.0.14 with PID 5136 (D:\xiaohashu\xiaohashu\xiaohashu-auth\target\classes started by 15149 in D:\xiaohashu\xiaohashu)
+2025-04-26 20:15:33.378 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - The following 1 profile is active: "dev"
+2025-04-26 20:15:34.279 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-26 20:15:34.279 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2025-04-26 20:15:34.280 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-04-26 20:15:34.284 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-04-26 20:15:34.292 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 20:15:34.292 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-04-26 20:15:34.362 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 20:15:34.362 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 946 ms
+2025-04-26 20:15:34.674 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 20:15:34.900 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 20:15:35.153 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-26 20:15:35.159 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - Started XiaohashuAuthApplication in 2.226 seconds (process running for 2.738)
+2025-04-26 20:16:14.960 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 20:16:14.960 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-26 20:16:14.961 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-26 20:16:15.053 [http-nio-8080-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"nickName":"秦强","createTime":"1972-07-18 10:16:03"}, 请求类: TestController, 请求方法: test =================================== 
+2025-04-26 20:16:15.056 [http-nio-8080-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 11ms, 出参: {"success":true,"data":{"nickName":"秦强","createTime":"1972-07-18 10:16:03"}} =================================== 
+2025-04-26 20:22:26.226 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 20:22:26.232 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-04-26 20:22:28.124 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - Starting XiaohashuAuthApplication using Java 17.0.14 with PID 5088 (D:\xiaohashu\xiaohashu\xiaohashu-auth\target\classes started by 15149 in D:\xiaohashu\xiaohashu)
+2025-04-26 20:22:28.126 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - The following 1 profile is active: "dev"
+2025-04-26 20:22:29.096 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-26 20:22:29.097 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2025-04-26 20:22:29.097 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-04-26 20:22:29.101 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-04-26 20:22:29.109 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 20:22:29.109 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-04-26 20:22:29.184 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 20:22:29.184 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1016 ms
+2025-04-26 20:22:29.487 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 20:22:29.720 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 20:22:29.970 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-26 20:22:29.976 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - Started XiaohashuAuthApplication in 2.313 seconds (process running for 2.881)
+2025-04-26 20:22:36.984 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 20:22:36.985 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-26 20:22:36.985 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-26 20:22:37.079 [http-nio-8080-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"nickName":"秦强","createTime":"1972-07-18 10:16:03"}, 请求类: TestController, 请求方法: test =================================== 
+2025-04-26 20:22:37.084 [http-nio-8080-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 12ms, 出参: {"success":true,"data":{"nickName":"秦强","createTime":"1972-07-18 10:16:03"}} =================================== 
+2025-04-26 20:29:11.823 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 20:29:11.828 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-04-26 21:08:10.887 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - Starting XiaohashuAuthApplication using Java 17.0.14 with PID 22864 (D:\xiaohashu\xiaohashu\xiaohashu-auth\target\classes started by 15149 in D:\xiaohashu\xiaohashu)
+2025-04-26 21:08:10.890 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - The following 1 profile is active: "dev"
+2025-04-26 21:08:11.795 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-26 21:08:11.796 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2025-04-26 21:08:11.796 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-04-26 21:08:11.800 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-04-26 21:08:11.807 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 21:08:11.807 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-04-26 21:08:11.877 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 21:08:11.878 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 943 ms
+2025-04-26 21:08:12.197 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 21:08:12.426 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 21:08:12.679 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-26 21:08:12.686 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - Started XiaohashuAuthApplication in 2.251 seconds (process running for 2.736)
+2025-04-26 21:08:20.723 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 21:08:20.724 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-26 21:08:20.725 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-26 21:08:20.855 [http-nio-8080-exec-3] WARN  c.x.x.auth.exception.GlobalExceptionHandler - /test request error, errorCode: AUTH-10001, errorMessage: nickName 昵称不能为空, 当前值: ''; 
+2025-04-26 21:08:35.447 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 21:08:35.453 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-04-26 21:20:33.640 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - Starting XiaohashuAuthApplication using Java 17.0.14 with PID 2940 (D:\xiaohashu\xiaohashu\xiaohashu-auth\target\classes started by 15149 in D:\xiaohashu\xiaohashu)
+2025-04-26 21:20:33.642 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - The following 1 profile is active: "dev"
+2025-04-26 21:20:34.552 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-26 21:20:34.553 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2025-04-26 21:20:34.553 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-04-26 21:20:34.557 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-04-26 21:20:34.564 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 21:20:34.564 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-04-26 21:20:34.632 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 21:20:34.632 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 953 ms
+2025-04-26 21:20:34.976 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 21:20:35.192 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 21:20:35.451 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-26 21:20:35.458 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - Started XiaohashuAuthApplication in 2.279 seconds (process running for 2.774)
+2025-04-26 21:21:09.106 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 21:21:09.106 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-26 21:21:09.107 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-26 21:21:09.140 [http-nio-8080-exec-1] WARN  o.s.core.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.xiaohashu.xiaohashu.auth.controller.TestController
+2025-04-26 21:41:04.598 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 21:41:04.599 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-04-26 22:05:18.010 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - Starting XiaohashuAuthApplication using Java 17.0.14 with PID 17620 (D:\xiaohashu\xiaohashu\xiaohashu-auth\target\classes started by 15149 in D:\xiaohashu\xiaohashu)
+2025-04-26 22:05:18.012 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - The following 1 profile is active: "dev"
+2025-04-26 22:05:18.553 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-26 22:05:18.556 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-26 22:05:18.587 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2025-04-26 22:05:19.155 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-26 22:05:19.156 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2025-04-26 22:05:19.156 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-04-26 22:05:19.160 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-04-26 22:05:19.167 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 22:05:19.168 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-04-26 22:05:19.250 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 22:05:19.250 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1197 ms
+2025-04-26 22:05:19.835 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 22:05:20.052 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 22:05:20.352 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-26 22:05:20.358 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - Started XiaohashuAuthApplication in 2.806 seconds (process running for 3.349)
+2025-04-26 22:06:15.953 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 22:06:15.953 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-26 22:06:15.954 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-26 22:06:16.081 [http-nio-8080-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18661861297"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-04-26 22:06:16.555 [http-nio-8080-exec-2] INFO  c.x.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 18661861297, 已发送验证码：【010258】
+2025-04-26 22:06:16.564 [http-nio-8080-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发送短信验证码], 耗时: 489ms, 出参: {"success":true} =================================== 
+2025-04-26 22:06:19.916 [http-nio-8080-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18661861297"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-04-26 22:06:19.920 [http-nio-8080-exec-5] WARN  c.x.x.auth.exception.GlobalExceptionHandler - /verification/code/send request fail, errorCode: AUTH-20000, errorMessage: 请求太频繁，请3分钟后再试
+2025-04-26 22:38:14.242 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 22:38:14.243 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-04-26 23:39:27.910 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - Starting XiaohashuAuthApplication using Java 17.0.14 with PID 23040 (D:\xiaohashu\xiaohashu\xiaohashu-auth\target\classes started by 15149 in D:\xiaohashu\xiaohashu)
+2025-04-26 23:39:27.912 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - The following 1 profile is active: "dev"
+2025-04-26 23:39:28.682 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-26 23:39:28.690 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-26 23:39:28.721 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2025-04-26 23:39:29.491 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-26 23:39:29.492 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2025-04-26 23:39:29.492 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-04-26 23:39:29.497 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-04-26 23:39:29.506 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-26 23:39:29.506 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-04-26 23:39:29.611 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-26 23:39:29.612 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1646 ms
+2025-04-26 23:39:30.299 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 23:39:30.544 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 23:39:30.921 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-26 23:39:30.928 [main] INFO  c.x.xiaohashu.auth.XiaohashuAuthApplication - Started XiaohashuAuthApplication in 3.618 seconds (process running for 4.347)
+2025-04-26 23:39:54.196 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26 23:39:54.196 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-26 23:39:54.197 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-26 23:39:54.373 [http-nio-8080-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18859981987"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-04-26 23:39:55.044 [http-nio-8080-exec-1] INFO  c.x.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 18859981987, 已生成验证码：【950157】
+2025-04-26 23:39:55.045 [AuthExecutor-1] INFO  com.xiaohashu.xiaohashu.auth.sms.AliyunSmsHelper - ==> 开始短信发送, phone: 18859981987, signName: 阿里云短信测试, templateCode: SMS_154950909, templateParam: {"code":"950157"}
+2025-04-26 23:39:55.055 [http-nio-8080-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发送短信验证码], 耗时: 691ms, 出参: {"success":true} =================================== 
+2025-04-26 23:39:56.231 [AuthExecutor-1] INFO  com.xiaohashu.xiaohashu.auth.sms.AliyunSmsHelper - ==> 短信发送成功, response: {"headers":{"access-control-allow-origin":"*","date":"Sat, 26 Apr 2025 15:39:53 GMT","content-length":"110","keep-alive":"timeout=25","x-acs-request-id":"DE2B77B9-74D6-511C-B640-13587E40DA3F","connection":"keep-alive","content-type":"application/json;charset=utf-8","etag":"1qK0Gmz1m6f4UMs+Ymn/KGw0","access-control-expose-headers":"*","x-acs-trace-id":"3d81bf31c0f30c061dd5f00726b40881"},"statusCode":200,"body":{"bizId":"726912945681992751^0","code":"OK","message":"OK","requestId":"DE2B77B9-74D6-511C-B640-13587E40DA3F"}}
+2025-04-26 23:40:33.594 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 23:40:33.600 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

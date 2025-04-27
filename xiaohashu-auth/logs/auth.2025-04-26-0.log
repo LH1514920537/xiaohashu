@@ -1,0 +1,86 @@
+2025-04-26 20:39:21.699 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - Starting DruidTest using Java 17.0.14 with PID 25804 (started by 15149 in D:\xiaohashu\xiaohashu\xiaohashu-auth)
+2025-04-26 20:39:21.701 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - The following 1 profile is active: "dev"
+2025-04-26 20:39:24.177 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 20:39:25.203 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 20:39:26.028 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - Started DruidTest in 4.818 seconds (process running for 5.816)
+2025-04-26 20:39:27.419 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - privateKey:MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAm+Pjjg2K95ihTazXZXxF529qcd+oQZlSgWvLKc+yI0WwKsm0dyyz+yZ4M2OuHBrZl7rfvLbddsYoqf8mMpBvjwIDAQABAkAN4DuNlewEPPxCpztnB6hLQPIXH8Lgz+51oawsVRX0qKfFYnSBb6T2ViT7lxe2OtceWor5VQ4Y7eB/CZd9VZiBAiEAqQWrcEjfuGRLXabKfBPrBc0EGiQlmJnvWA3W7m/KHoECIQDsHEP9ZmaBjCS0tHxwF6dgD102E8szFxMuZRQHn3GmDwIhAIKK/3tMvYXT6KWfYbptQ9MKIkXybxsqoUIYBk3IB4qBAiAEqXI2OKVhfXDkGIQ0emMVpHgEr1NdyODaE6jXlbBaxQIgPIRseErjl5+ezGLPWLFzFmlHfpKTjb2F7c+XaUm0iRs=
+2025-04-26 20:39:27.429 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJvj444NiveYoU2s12V8RedvanHfqEGZUoFryynPsiNFsCrJtHcss/smeDNjrhwa2Ze637y23XbGKKn/JjKQb48CAwEAAQ==
+2025-04-26 20:39:27.433 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - password: aLrrSvbLVfTxJGEIpOhc5dZmJrZpWEisirjo9tGo2CxYd5DElPdvkL1nJyXGHyekHNd97KZ8Mds0X5mXZ1tebA==
+2025-04-26 20:39:27.504 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaohashu.xiaohashu.auth.XiaohashuAuthApplicationTests]: XiaohashuAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-04-26 20:39:27.506 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaohashu.xiaohashu.auth.XiaohashuAuthApplication for test class com.xiaohashu.xiaohashu.auth.XiaohashuAuthApplicationTests
+2025-04-26 20:39:27.544 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 20:39:27.554 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-04-26 20:40:47.613 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - Starting DruidTest using Java 17.0.14 with PID 11308 (started by 15149 in D:\xiaohashu\xiaohashu\xiaohashu-auth)
+2025-04-26 20:40:47.614 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - The following 1 profile is active: "dev"
+2025-04-26 20:40:50.277 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 20:40:51.417 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 20:40:52.228 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - Started DruidTest in 5.134 seconds (process running for 6.078)
+2025-04-26 20:40:53.619 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - privateKey:MIIBVQIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAhdwhd1Et3mj8dH4GiKPEJcFC8A/s2CkASNIxJUaDoyFGQS0CSFLG+fS3aj5x2S+2/a4w0MdbAmRYW9WB1kZ2wwIDAQABAkAq5yP+xxEJgOKxP5c+giai5y9aG/CQU4vYyy2fQdt9E/jjQP/XDrtjTU6muq86dCOwyrlgBDAGa50xl1CxYZUhAiEA9BFRWLueN10TwFxlFInb+F/R/RxqHxwzxMKPH/aTVNMCIQCMZ3vIEQ4u19JUDpnCEBfwO6wI3k6Vgcr8UvVnlNDgUQIhAO0k/oNXGS32FEDuBZDlOoSkpeZne31q66oc2PBXp2PdAiB4HJsvBzAr8KPVFvyAoQXplRLSL2Po0LVW8J1R9GRQUQIhANeMYEgnTqk39LFMWVb+MtVay8Pgj/gWR+JXPgNG74Vm
+2025-04-26 20:40:53.628 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIXcIXdRLd5o/HR+BoijxCXBQvAP7NgpAEjSMSVGg6MhRkEtAkhSxvn0t2o+cdkvtv2uMNDHWwJkWFvVgdZGdsMCAwEAAQ==
+2025-04-26 20:40:53.632 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - password: PKCjpSQdqrRoEeUt5FekDzmthV65QN1HNliOqH6Q7+0E3IGpr2EbiLFAmXPJp90q+sihkcG29FJSP/MDI3j91Q==
+2025-04-26 20:40:53.693 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaohashu.xiaohashu.auth.XiaohashuAuthApplicationTests]: XiaohashuAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-04-26 20:40:53.695 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaohashu.xiaohashu.auth.XiaohashuAuthApplication for test class com.xiaohashu.xiaohashu.auth.XiaohashuAuthApplicationTests
+2025-04-26 20:40:53.738 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 20:40:53.755 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-04-26 20:41:08.561 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - Starting DruidTest using Java 17.0.14 with PID 19404 (started by 15149 in D:\xiaohashu\xiaohashu\xiaohashu-auth)
+2025-04-26 20:41:08.562 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - The following 1 profile is active: "dev"
+2025-04-26 20:41:11.197 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 20:41:12.343 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 20:41:13.184 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - Started DruidTest in 5.167 seconds (process running for 6.048)
+2025-04-26 20:41:14.520 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - privateKey:MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAiJ02pECJIu9epXITsLCDfVasYxE4T2tMmfBsJo2jk4hvSVwYK096cx3bTHjsUrf8cE552riWnzPkdwl4W/k1LQIDAQABAkAkpni4TA/+bVVo8VfS+SftgkkxMrd2pwSf794z4Z/Wvkjuw2CLg0r5YKvFubIVRhEu0fYGTYSdaCM7uJ76HMsJAiEAraztRM3UMFZ947fFKmVuuDT/500p29YY9c56cTUJu4MCIQDJXvvWjjPvzH1pyVS9T8yfkgL98jwDdRS/1ZxL+5P9jwIgC/57TFsiokv22bkhRrJGmTYfziuIDoSUqLUfw520FF0CIQCNNLHcLjN1QCvhdnCZn8+ZRcYbVTWIJx25t4y2K2AHOQIgSHhIWV2WmYCVc2Ca8Yda63DrIIGWF+85QuovMjTaxig=
+2025-04-26 20:41:14.530 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIidNqRAiSLvXqVyE7Cwg31WrGMROE9rTJnwbCaNo5OIb0lcGCtPenMd20x47FK3/HBOedq4lp8z5HcJeFv5NS0CAwEAAQ==
+2025-04-26 20:41:14.533 [main] INFO  com.xiaohashu.xiaohashu.auth.DruidTest - password: WY04K1f4jEriWsDXiUZy/ApHxLwPW4BMrTLJn2T6Yo6DcmsGsze47lut3bpj590tDfhmHPewGNzxb80zfkst7w==
+2025-04-26 20:41:14.598 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.xiaohashu.xiaohashu.auth.XiaohashuAuthApplicationTests]: XiaohashuAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-04-26 20:41:14.600 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.xiaohashu.xiaohashu.auth.XiaohashuAuthApplication for test class com.xiaohashu.xiaohashu.auth.XiaohashuAuthApplicationTests
+2025-04-26 20:41:14.677 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 20:41:14.685 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-04-26 21:37:27.099 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - Starting RedisTest using Java 17.0.14 with PID 27380 (started by 15149 in D:\xiaohashu\xiaohashu\xiaohashu-auth)
+2025-04-26 21:37:27.100 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - The following 1 profile is active: "dev"
+2025-04-26 21:37:28.284 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-26 21:37:28.289 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-26 21:37:28.339 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2025-04-26 21:37:30.851 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 21:37:31.740 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 21:37:32.778 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - Started RedisTest in 6.262 seconds (process running for 7.213)
+2025-04-26 21:37:34.705 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 21:37:34.717 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-04-26 21:38:48.151 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - Starting RedisTest using Java 17.0.14 with PID 11728 (started by 15149 in D:\xiaohashu\xiaohashu\xiaohashu-auth)
+2025-04-26 21:38:48.152 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - The following 1 profile is active: "dev"
+2025-04-26 21:38:49.230 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-26 21:38:49.234 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-26 21:38:49.278 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2025-04-26 21:38:51.590 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 21:38:52.503 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 21:38:53.537 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - Started RedisTest in 5.981 seconds (process running for 6.962)
+2025-04-26 21:38:55.386 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 21:38:55.394 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-04-26 21:39:53.203 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - Starting RedisTest using Java 17.0.14 with PID 17788 (started by 15149 in D:\xiaohashu\xiaohashu\xiaohashu-auth)
+2025-04-26 21:39:53.205 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - The following 1 profile is active: "dev"
+2025-04-26 21:39:54.306 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-26 21:39:54.311 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-26 21:39:54.363 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2025-04-26 21:39:56.657 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 21:39:57.515 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 21:39:58.648 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - Started RedisTest in 6.046 seconds (process running for 6.993)
+2025-04-26 21:40:00.315 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 21:40:00.326 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-04-26 21:40:48.695 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - Starting RedisTest using Java 17.0.14 with PID 508 (started by 15149 in D:\xiaohashu\xiaohashu\xiaohashu-auth)
+2025-04-26 21:40:48.698 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - The following 1 profile is active: "dev"
+2025-04-26 21:40:49.858 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-26 21:40:49.861 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-26 21:40:49.933 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2025-04-26 21:40:52.276 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 21:40:53.272 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 21:40:54.326 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - Started RedisTest in 6.238 seconds (process running for 7.183)
+2025-04-26 21:40:55.889 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 21:40:55.900 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-04-26 22:05:05.215 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - Starting RedisTest using Java 17.0.14 with PID 9672 (started by 15149 in D:\xiaohashu\xiaohashu\xiaohashu-auth)
+2025-04-26 22:05:05.218 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - The following 1 profile is active: "dev"
+2025-04-26 22:05:06.412 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-26 22:05:06.417 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-26 22:05:06.478 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2025-04-26 22:05:08.742 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-04-26 22:05:09.668 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-04-26 22:05:10.691 [main] INFO  com.xiaohashu.xiaohashu.auth.RedisTest - Started RedisTest in 6.05 seconds (process running for 7.044)
+2025-04-26 22:05:12.891 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-04-26 22:05:12.900 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
