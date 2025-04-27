@@ -1,5 +1,6 @@
 package com.xiaohashu.xiaohashu.auth.model.vo.veriticationcode;
 
+import com.quanxiaoha.framework.common.validator.PhoneNumber;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,5 +14,6 @@ import lombok.NoArgsConstructor;
 public class SendVerificationCodeReqVO {
 
     @NotBlank(message = "手机号不能为空")
+    @PhoneNumber
     private String phone;
 }
