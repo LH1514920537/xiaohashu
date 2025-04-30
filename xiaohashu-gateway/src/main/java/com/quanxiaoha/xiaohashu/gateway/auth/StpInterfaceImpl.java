@@ -5,17 +5,15 @@ import com.alibaba.nacos.shaded.com.google.common.collect.Lists;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.quanxiaoha.xiaohashu.constant.RedisKeyConstants;
+
+import com.quanxiaoha.xiaohashu.gateway.constant.RedisKeyConstants;
 import jakarta.annotation.Resource;
-import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 
-import java.util.Collections;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import cn.hutool.core.collection.CollUtil;

@@ -79,6 +79,11 @@
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.quanxiaoha.xiaohashu.user.api</groupId>
+            <artifactId>xiaohashu-user-api</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

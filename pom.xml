@@ -23,6 +23,13 @@
         <!-- 平台基础框架 -->
         <module>xiaohashu-framework</module>
         <module>xiaohashu-gateway</module>
+        <module>xiaohashu-oss</module>
+        <module>xiaohashu-user</module>
+        <module>xiaohashu-kv</module>
+        <module>xiaohashu-kv/xiaohashu-kv-api</module>
+        <module>xiaohashu-kv/xiaohashu-kv-biz</module>
+        <module>xiaohashu-distributed-id-generator</module>
+        <module>xiaohashu-note</module>
     </modules>
 
     <properties>
@@ -63,6 +70,12 @@
         <dysmsapi.version>4.1.0</dysmsapi.version>
 
         <nacos-config.version>0.3.0-RC</nacos-config.version>
+
+        <transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
+
+        <minio.version>8.2.1</minio.version>
+
+        <feign-form.version>3.8.0</feign-form.version>
     </properties>
 
     <!-- 统一依赖管理 -->
@@ -208,6 +221,79 @@
                 <groupId>com.alibaba.boot</groupId>
                 <artifactId>nacos-config-spring-boot-starter</artifactId>
                 <version>${nacos-config.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>transmittable-thread-local</artifactId>
+                <version>${transmittable-thread-local.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.quanxiaoha.framework.biz.context</groupId>
+                <artifactId>xiaohashu-spring-boot-starter-biz-context</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <!-- 对象存储 Minio -->
+            <dependency>
+                <groupId>io.minio</groupId>
+                <artifactId>minio</artifactId>
+                <version>${minio.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.aliyun.oss</groupId>
+                <artifactId>aliyun-sdk-oss</artifactId>
+                <version>3.17.4</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.xml.bind</groupId>
+                <artifactId>jaxb-api</artifactId>
+                <version>2.3.1</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.activation</groupId>
+                <artifactId>activation</artifactId>
+                <version>1.1.1</version>
+            </dependency>
+            <!-- no more than 2.3.3-->
+            <dependency>
+                <groupId>org.glassfish.jaxb</groupId>
+                <artifactId>jaxb-runtime</artifactId>
+                <version>2.3.3</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.quanxiaoha.xiaohashu.oss</groupId>
+                <artifactId>xiaohashu-oss-api</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- Feign 表单提交 -->
+            <dependency>
+                <groupId>io.github.openfeign.form</groupId>
+                <artifactId>feign-form</artifactId>
+                <version>${feign-form.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.quanxiaoha.xiaohashu.user.api</groupId>
+                <artifactId>xiaohashu-user-api</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.quanxiaoha.xiaohashu.kv</groupId>
+                <artifactId>xiaohashu-kv-api</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.quanxiaoha.xiaohashu.distributed.id.generator</groupId>
+                <artifactId>xiaohashu-distributed-id-generator-api</artifactId>
+                <version>${revision}</version>
             </dependency>
 
 

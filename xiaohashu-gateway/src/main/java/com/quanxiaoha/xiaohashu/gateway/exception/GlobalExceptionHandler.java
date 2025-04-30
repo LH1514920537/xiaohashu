@@ -1,9 +1,8 @@
 package com.quanxiaoha.xiaohashu.gateway.exception;
 
 
-import cn.dev33.satoken.exception.SaTokenException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.quanxiaoha.framework.common.responnse.Response;
+import com.quanxiaoha.framework.common.response.Response;
 import com.quanxiaoha.xiaohashu.gateway.enums.ResponseCodeEnum;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
@@ -15,6 +14,8 @@ import org.springframework.http.server.reactive.ServerHttpResponse;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
+import cn.dev33.satoken.exception.NotLoginException;
+import cn.dev33.satoken.exception.NotPermissionException;
 
 @Component
 @Slf4j
@@ -35,7 +36,12 @@ public class GlobalExceptionHandler implements ErrorWebExceptionHandler {
         // 响参
         Response<?> result;
         // 根据捕获的异常类型，设置不同的响应状态码和响应消息
-        if (ex instanceof SaTokenException) { // Sa-Token 异常
+        if (ex instanceof NotLoginException) { // 未登录异常
+            // 设置 401 状态码
+            response.setStatusCode(HttpStatus.UNAUTHORIZED);
+            // 构建响应结果
+            result = Response.fail(ResponseCodeEnum.UNAUTHORIZED.getErrorCode(), "未登录");
+        } else if (ex instanceof NotPermissionException) { // 无权限异常
             // 权限认证失败时，设置 401 状态码
             response.setStatusCode(HttpStatus.UNAUTHORIZED);
             // 构建响应结果

@@ -1,0 +1,15 @@
+#=================================================================
+# minio (上传图片需要，需配置成自己的地址)
+#=================================================================
+
+storage:
+  config:
+    import: classpath:config/local-config.properties
+  minio:
+    endpoint: http://127.0.0.1:9000
+    accessKey: xiaohashu
+    secretKey: xiaohashu
+  aliyun:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    accessKey: ${Aliyun.AccessKeyID}
+    secretKey: ${Aliyun.AccessKeySecret}

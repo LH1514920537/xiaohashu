@@ -2,10 +2,9 @@ package com.xiaohashu.xiaohashu.auth.exception;
 
 
 import com.quanxiaoha.framework.common.exception.BizException;
-import com.quanxiaoha.framework.common.responnse.Response;
+import com.quanxiaoha.framework.common.response.Response;
 import com.xiaohashu.xiaohashu.auth.enums.ResponseCodeEnum;
 import jakarta.servlet.http.HttpServletRequest;
-import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.MethodArgumentNotValidException;

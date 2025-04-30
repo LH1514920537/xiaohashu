@@ -2,7 +2,7 @@ package com.xiaohashu.xiaohashu.auth.controller;
 
 
 import com.quanxiaoha.framework.biz.operationlog.aspect.ApiOperationLog;
-import com.quanxiaoha.framework.common.responnse.Response;
+import com.quanxiaoha.framework.common.response.Response;
 import com.xiaohashu.xiaohashu.auth.model.vo.veriticationcode.SendVerificationCodeReqVO;
 import com.xiaohashu.xiaohashu.auth.service.VerificationCodeService;
 import jakarta.annotation.Resource;
