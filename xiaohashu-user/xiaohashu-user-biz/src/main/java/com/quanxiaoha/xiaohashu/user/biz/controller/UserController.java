@@ -4,9 +4,8 @@ import com.quanxiaoha.framework.biz.operationlog.aspect.ApiOperationLog;
 import com.quanxiaoha.framework.common.response.Response;
 import com.quanxiaoha.xiaohashu.user.biz.model.vo.UpdateUserInfoReqVO;
 import com.quanxiaoha.xiaohashu.user.biz.service.UserService;
-import com.quanxiaoha.xiaohashu.user.dto.req.FindUserByPhoneReqDTO;
-import com.quanxiaoha.xiaohashu.user.dto.req.RegisterUserReqDTO;
-import com.quanxiaoha.xiaohashu.user.dto.req.UpdateUserPasswordReqDTO;
+import com.quanxiaoha.xiaohashu.user.dto.req.*;
+import com.quanxiaoha.xiaohashu.user.dto.resp.FindUserByIdRespDTO;
 import com.quanxiaoha.xiaohashu.user.dto.resp.FindUserByPhoneRespDTO;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
@@ -16,6 +15,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/user")
@@ -52,6 +53,18 @@ public class UserController {
     @ApiOperationLog(description = "密码更新")
     public Response<?> updatePassword(@Validated @RequestBody UpdateUserPasswordReqDTO updateUserPasswordReqDTO) {
         return userService.updatePassword(updateUserPasswordReqDTO);
+    }
+
+    @PostMapping("/findById")
+    @ApiOperationLog(description = "查询用户信息")
+    public Response<FindUserByIdRespDTO> findById(@Validated @RequestBody FindUserByIdReqDTO findUserByIdReqDTO) {
+        return userService.findById(findUserByIdReqDTO);
+    }
+
+    @PostMapping("/findByIds")
+    @ApiOperationLog(description = "批量查询用户信息")
+    public Response<List<FindUserByIdRespDTO>> findByIds(@Validated @RequestBody FindUserByIdsReqDTO findUserByIdsReqDTO) {
+        return userService.findByIds(findUserByIdsReqDTO);
     }
 
 }

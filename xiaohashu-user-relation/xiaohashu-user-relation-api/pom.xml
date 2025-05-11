@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.quanxiaoha</groupId>
+        <artifactId>xiaohashu</artifactId>
+        <version>${revision}</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.quanxiaoha.xiaohashu.user.relation</groupId>
+    <artifactId>xiaohashu-user-relation-api</artifactId>
+    <packaging>jar</packaging>
+
+    <name>xiaohashu-user-relation-api</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.quanxiaoha.framework.common</groupId>
+            <artifactId>xiaohashu-common</artifactId>
+        </dependency>
+    </dependencies>
+</project>

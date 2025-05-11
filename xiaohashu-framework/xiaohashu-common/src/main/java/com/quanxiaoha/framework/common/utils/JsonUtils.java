@@ -1,16 +1,16 @@
 package com.quanxiaoha.framework.common.utils;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.databind.type.CollectionType;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
-import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
-import com.quanxiaoha.framework.common.constant.DateConstants;
 import lombok.SneakyThrows;
+import org.apache.commons.lang3.StringUtils;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.Map;
 
 public class JsonUtils {
 
@@ -40,4 +40,49 @@ public class JsonUtils {
         return OBJECT_MAPPER.writeValueAsString(obj);
     }
 
+
+    /**
+     * 将 JSON 字符串转换为对象
+     *
+     * @param jsonStr
+     * @param clazz
+     * @return
+     * @param <T>
+     */
+    @SneakyThrows
+    public static <T> T parseObject(String jsonStr, Class<T> clazz) {
+        if (StringUtils.isBlank(jsonStr)) {
+            return null;
+        }
+
+        return OBJECT_MAPPER.readValue(jsonStr, clazz);
+    }
+
+    public static <K, V> Map<K, V> parseMap(String jsonStr, Class<K> keyClass, Class<V> valueClass) throws Exception {
+        // 创建 TypeReference，指定泛型类型
+        TypeReference<Map<K, V>> typeRef = new TypeReference<Map<K, V>>() {
+        };
+
+        // 将 JSON 字符串转换为 Map
+        return OBJECT_MAPPER.readValue(jsonStr, OBJECT_MAPPER.getTypeFactory().constructMapType(Map.class, keyClass, valueClass));
+    }
+
+    /**
+     * 将 JSON 字符串解析为指定类型的 List 对象
+     *
+     * @param jsonStr
+     * @param clazz
+     * @return
+     * @param <T>
+     * @throws Exception
+     */
+    public static <T> List<T> parseList(String jsonStr, Class<T> clazz) throws Exception {
+        // 使用 TypeReference 指定 List<T> 的泛型类型
+        return OBJECT_MAPPER.readValue(jsonStr, new TypeReference<List<T>>() {
+            @Override
+            public CollectionType getType() {
+                return OBJECT_MAPPER.getTypeFactory().constructCollectionType(List.class, clazz);
+            }
+        });
+    }
 }

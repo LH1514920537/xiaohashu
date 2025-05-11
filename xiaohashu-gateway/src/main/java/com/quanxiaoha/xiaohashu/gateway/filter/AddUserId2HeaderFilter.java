@@ -18,7 +18,6 @@ public class AddUserId2HeaderFilter implements GlobalFilter {
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
-        // 用户 ID
         // Sa-Token默认的Token Header名字，通常是 "satoken" 或自己配置的
         String tokenValue = exchange.getRequest().getHeaders().getFirst("Authorization");
         if (tokenValue == null) {
